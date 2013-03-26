@@ -571,9 +571,7 @@ bool WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpReserved)
 			else
 				MessageBoxW(NULL, L"Process is not elevated", L"Test", MB_ICONEXCLAMATION | MB_OK);
 
-
-
-
+			
 
 
 //			MessageBoxW(NULL, L"Test", L"Test", MB_ICONEXCLAMATION | MB_OK);

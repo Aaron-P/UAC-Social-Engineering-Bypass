@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UAC Social Engineering Bypass", "UAC Social Engineering Bypass\UAC Social Engineering Bypass.vcxproj", "{FB2C9383-37AD-40D1-B168-B3F7EA36E311}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UAC RunAs Elevated", "UAC RunAs Elevated\UAC RunAs Elevated.vcxproj", "{92A73BA9-9D92-4B76-9544-CC40A47BD527}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB2C9383-37AD-40D1-B168-B3F7EA36E311}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FB2C9383-37AD-40D1-B168-B3F7EA36E311}.Debug|Win32.Build.0 = Debug|Win32
+		{FB2C9383-37AD-40D1-B168-B3F7EA36E311}.Release|Win32.ActiveCfg = Release|Win32
+		{FB2C9383-37AD-40D1-B168-B3F7EA36E311}.Release|Win32.Build.0 = Release|Win32
+		{92A73BA9-9D92-4B76-9544-CC40A47BD527}.Debug|Win32.ActiveCfg = Debug|Win32
+		{92A73BA9-9D92-4B76-9544-CC40A47BD527}.Debug|Win32.Build.0 = Debug|Win32
+		{92A73BA9-9D92-4B76-9544-CC40A47BD527}.Release|Win32.ActiveCfg = Release|Win32
+		{92A73BA9-9D92-4B76-9544-CC40A47BD527}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

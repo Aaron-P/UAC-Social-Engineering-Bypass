@@ -1,0 +1,5 @@
+LIBRARY "uacHijackDll"
+DESCRIPTION "setmouse Windows Dynamic Link Library"
+EXPORTS
+;FOR DLL HIJACK
+;example

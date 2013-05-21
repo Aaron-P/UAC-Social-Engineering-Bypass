@@ -20,7 +20,7 @@ bool getFileNameW(wchar_t *fileNameBuffer, const size_t bufferLength)
 
 	const size_t fileNameLength = (pathBuffer + pathSize) - pathLastSlash;//Should this be +/- 1?
 
-	if (fileNameLength > bufferLength - 1)//Is this right, or should directoryLength be /sizeof(wchar_t)?
+	if (fileNameLength > bufferLength - 1)//Is this right, or should fileNameLength be /sizeof(wchar_t)?
 		return false;// File name is too long.
 
 	if (wcsncpy_s(fileNameBuffer, bufferLength, pathLastSlash + 1, fileNameLength))// is it good practice to append a null anway?

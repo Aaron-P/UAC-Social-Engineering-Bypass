@@ -1,5 +1,5 @@
-Adobe Acrobat     = AcroRd32.exe     -> AcroRd32.dll
-Adobe Reader      = Exch_Acrobat.exe -> Acrobat.dll
+Adobe Reader      = AcroRd32.exe     -> AcroRd32.dll
+Adobe Acrobat     = Exch_Acrobat.exe -> Acrobat.dll
 Chrome            = chrome.exe       -> chrome.dll
 Firefox           = firefox.exe      -> xul.dll
 Internet Explorer = iexplorer.exe    -> IEShims.dll (unclean exit)
